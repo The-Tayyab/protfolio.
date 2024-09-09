@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Profile Picture and Info -->
+        <header class="header">
+            <img src="c:\Users\DELL\Desktop\9 Sep 24\Profile.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Tayyab Ur Rehman</h1>
+            <p class="about-me">An aspiring web developer dedicated to learning and growing in the field. I began my journey in front-end web development (HTML, CSS) in July 2024 through platforms like YouTube, freeCodeCamp, and Coursera. Although still in the early stages of my learning, I am committed to enhancing my skills and building a solid foundation. This portfolio, created with the assistance of ChatGPT AI, showcases my progress and passion for web development. I am currently looking for an internship opportunity to work with experienced developers, gain valuable insights, and further develop my capabilities in this dynamic field.</p>
+    </div>
+    </header>
+    <!-- Social Media Icons -->
+        <section class="social-media">
+            <a href="https://https://www.linkedin.com/in/tayyab-ur-rehman-81792b266/" target="_blank" class="icon fab fa-linkedin"></a>
+            <a href="https://github.com/The-Tayyab" target="_blank" class="icon fab fa-github"></a>
+            <a href="mailto:tayyabur5@gmail.com" class="icon fas fa-envelope"></a>
+            <a href="https://wa.me/+923076793602" target="_blank" class="icon fab fa-whatsapp"></a>
+            <a href="https://https://www.instagram.com/the_tayyab_official/?hl=en" target="_blank" class="icon fab fa-instagram"></a>
+        </section>
+    <!-- Navigation Buttons -->
+  <nav class="navigation-buttons">
+    <button onclick="navigateTo('education')">Education</button>
+    <button onclick="navigateTo('courses')">Courses</button>
+    <button onclick="navigateTo('projects')">Projects</button>
+    <button onclick="navigateTo('past-experience')">Past Experience</button>
+  </nav>
+<HR></HR>
+  <!-- Add your content here -->
+  <section id="education">
+    <h2>Bachlor's of Arts</h2>
+    <img src="Screenshot 2024-09-08 102004.jpg" width="600" alt="This is an Image">
+
+    <!-- Education content -->
+     <HR></HR>
+  </section>
+
+  <section id="courses">
+    <h2>Responsive Web Desing</h2>
+    <img src="Screenshot 2024-09-08 111617.jpg" width="600" alt="This is an Image">
+    <!-- Courses content -->
+  </section>
+<hr>
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>I have completed follwong project at  <a href="https://www.freecodecamp.org/certification/Tayyab_Ur_Rehman/responsive-web-design" target="_blank">freeCodeCamp.org</a></p>
+     <li>Survey Form</li1>
+     <li>Tribute Page</li2>
+     <li>Technical Documentation Page</li3>	
+     <li>Product Landing Page</li4>
+     <li>Personal Portfolio Webpage</li5>
+    <!-- Projects content -->
+  </section>
+<hr>
+  <section id="past-experience">
+    <h2>Past Experience</h2>
+    <img src="Screenshot_20230413-001112_Photos (5).jpg" width="200" alt="This is an image">
+      <h2><b>Veteran of the Pakistani Army</b></h2>
+      <p>I proudly served in the Pakistani Army for six years, working in various operational areas. My time in service provided me with invaluable experience in leadership, adaptability, and commitment to excellence, qualities that continue to shape my professional journey today.    </p>    <!-- Past Experience content -->
+  </section>
+<hr>
+  <script>
+    // Function to scroll to the respective section
+    function navigateTo(sectionId) {
+      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+  
+  <footer>
+    <p>&copy; 2024 Tayyab Ur Rehman</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, csans-serif;
+    line-height: 1.6;
+    background-color: hwb(180 98% 1%);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.social-media {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(243, 149, 9);
+    font-size: 20px;
+    margin: 0 10px;
+    text-align: center;
+    vertical-align: middle;
+    transition: color 0.3s ease;
+}
+
+.icon:hover {
+    color: hsl(0, 94%, 50%); /* Change to your preferred hover color */
+}
+
+.profile-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    background-color: rgba(237, 237, 243, 0.904);
+    color: rgb(3, 3, 3);
+    padding: 20px;
+  }
+  
+  .navigation-buttons {
+    margin: 20px 0;
+  }
+  
+  .navigation-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 6%);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .navigation-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
